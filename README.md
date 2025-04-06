@@ -27,7 +27,7 @@ This tool assists podcast creators by automating much of the pre-production plan
 2.  **Open in Colab:** Upload and open in Google Colab ([colab.research.google.com](https://colab.research.google.com/)).
 3.  **Install libraries:** Run Cell 1 (`# @title 1. Install...`) to install necessary packages.
 4.  **Configure API Keys in Colab Secrets:**
-    *   Go to Colab Secrets (Key icon `<>` in the left sidebar).
+    *   Go to Colab Secrets (Key icon in the left sidebar).
     *   Enable "Notebook access".
     *   Add two secrets:
         *   Name: `OPENAI_API_KEY` | Value: Your OpenAI key (`sk-...`)
@@ -35,7 +35,7 @@ This tool assists podcast creators by automating much of the pre-production plan
     *   Make sure the **toggle switch** is **ON** for both secrets.
 5.  **Run Cell 2:** Execute Cell 2 (`# @title 2. Import Modules...`). Check the output to verify both API keys were loaded successfully. Fix any errors before proceeding.
 
-## How to Use
+## How to use
 
 1.  **Define episode details (Cell 3):**
     *   Go to Cell 3 (`# @title 3. Define Podcast Episode Details`).
